@@ -131,7 +131,19 @@
   
 	 Felület	    |  K11	|    Vásárlás    |	Egy külön felület amelyet a Kosáron belül érhetünk el.
 			    |		| 		 |	Ha a felhasználó végzett, akkor itt képes a kiválasztott termékeket megvásárolni.
-  --------------------------------------------------------------------------------------------------------------------------------------------	
+  --------------------------------------------------------------------------------------------------------------------------------------------
+
+  10.Forgatókönyv
+  1.A felhasználó be lép az oldalra.
+  2.A regisztrációs ablak feldobása(Persze nem kötelető csak ha a felhasználó értesítest szeretne kapni a különféle akciok és extra ajánlatokról)
+  3.Abban az esetben ha a Felhasználó regisztrálni szeretne akkor meg kell adni pár személyes adatott és esetlegesen a szállítási adatokat amit majd kesőbb nem kell meg adnia mert a felhasználó regsztrációs résznél már meg adta.
+  3.Miután felhasználó tulvan az első lépéseken a kerésés fülnél meg adhatja hogy milyen tipusu terméket szeretne vásárolni/utána nézni.
+  4.Majd ha keresett terméket meg találta de meg ezen felül is szűkíteni szeretné a találatokat akkor a különféle szűrőket tud be állítani ami meg könnyítini a felhasznaló dolgát.
+  5.Ha a felhasználó meg találta a kívánt terméket akkor azt a kosárba kell helyezni majd a kosár fülnél tudja véghez vinni a tranzakciót.
+  6.Ha felhasználónak sikerült tovább lépnie akkor pár személyes adatott fogunk kérni(pl:Név,E-mail cím,telefonszám,Szállítási cím(Irányítószám,Város,Utca,Hazszám,Ajtó/Emelet),Számlázási cím,Egyéb közlemény ) hogy folytathassa a trancakció.
+  7.Megtörtént az adatt rögzítés ezzel egyben a rendelés leadás is.Ezután a felhasználó kapni fog e-mailben egy megerősítési levelet hogy sikeresen rögzítettük az adatokat és a csomagot előkészítjük majd átadjuk a futárszolgálatnak.
+  9.További értesítést a futárszolgálattol fog kapni.
+  8.Köszönjük a vásárlását! 	
 
   11. Fogalomszótár
 
