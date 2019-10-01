@@ -47,7 +47,21 @@
 	Valamint egy kosár és vásárlási felület, ahova beletehetjük a kivánt termékeket és megvásárolhatjuk azokat.
 
 
-4. Jelenlegi folyamatok modellje
+
+4. Jelenlegi üzleti folyamatok modellje
+
+		A rengetek webes áruházakból nehezen tudunk választani, hogy melyik a legjobb,
+	melyiket a legkönnyebb használni, és hogy melyik raktára a legbővebb.
+	
+	A mai világban az emberek figyelem ideje egyre kissebb és kissebb, például hamár
+	egy videó nem töltődik be pár másodperc alatt akkor nagy az esélye, hogy megse nézzük.
+	
+	A felhasználóknak egy gyors, akadály mentes, elérhető, és nem bonyolult eszközök
+	kellenek, szinte az élet minden szempontjához, és ez igaz a Webshopokra is.
+	
+	Miértelme használni egy webes árúházat, ha nem találod meg amit találsz,
+	azon az áron amelyre számítottátl, egy teljesen másik színben.
+
 
 
 
