@@ -47,6 +47,10 @@
 	Valamint egy kosár és vásárlási felület, ahova beletehetjük a kivánt termékeket és megvásárolhatjuk azokat.
 
 
+4. Jelenlegi folyamatok modellje
+
+
+
 	5. Igényelt üzleti folyamatok modellje
 
 		A program fő célját már leírtuk, most nézzük meg, hogy hogyan valósítjuk azt meg.
