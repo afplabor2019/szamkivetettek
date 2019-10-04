@@ -133,6 +133,38 @@
 			    |		| 		 |	Ha a felhasználó végzett, akkor itt képes a kiválasztott termékeket megvásárolni.
   --------------------------------------------------------------------------------------------------------------------------------------------
 
+8.Adatmodell
+
+                 VEVŐ			
+VevőID	  Név	                Cím	
+ 11	Kis János	1234 Kisfalu,Szabó u.9.	
+ 12	Nagy Páter	7676 Hegyfő-alsó,Kossuth u.10.	
+ 13	Antal Róbert	2501 Hegyfőnánas,Petőfi út 37.	
+			
+               RENDELÉS			
+RendelésID	VevőID	       Cikkszám	
+     1	           12	         1155	
+     2	           11	         1166	
+     3	           13	         1177	
+     4	           12            1188	
+     5	           12	         1199	
+			
+                ÁRU			
+Cikkszám	Gyártó	        Terméknév	    Nettó ár 
+  1166	        Iphone	         Tablet	            100 000 Ft
+  1199	        HP	         Laptop	            300 000 Ft
+  1155	        Huawei	         Telefon	    200 000 Ft
+  1177	        Gear	         Okosóra	     70 000 Ft
+
+
+
+
+
+  
+
+
+
+
   10.Forgatókönyv
   1.A felhasználó be lép az oldalra.
   2.A regisztrációs ablak feldobása(Persze nem kötelető csak ha a felhasználó értesítest szeretne kapni a különféle akciok és extra ajánlatokról)
