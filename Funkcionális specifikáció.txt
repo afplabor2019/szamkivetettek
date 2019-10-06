@@ -138,6 +138,7 @@
 
 7.Képernyőtervek
 
+
 1. Regisztációs felület: Nem kötelető, csak ha a felhasználó értesítest szeretne kapni a különféle akciok és extra ajánlatokról, akkor 				 lehet opcionális ez a rész.
 
 2. Főoldal: Ez a kezdő oldal, innen a felhasználó tud választani a lehetőségek közül, hogy hová akar eljutni. Négy főbb kategóra közül 		    lehet választani.
