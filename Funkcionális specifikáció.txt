@@ -91,7 +91,8 @@
   --------------------------------------------------------------------------------------------------------------------------------------
 	   
 	 Adminisztráció	    |	K1	|  Kezdőoldal	 |	Az oldal amelyet lát a felhasználó amikor megnyitja a programot. 
-			    |		|	         |	Itt érhető el külöböző lehetőségek, mint a Vendég, Regiszráció és                 Bejeletkezés.
+			    |		|	         |	Itt érhető el külöböző lehetőségek, mint a Vendég, Regiszráció és    
+			    					Bejeletkezés.
   --------------------------------------------------------------------------------------------------------------------------------------
 	 
 	 Adminisztráció	    |	K2	|  Regisztráció  |	Itt képes a felhasználó felregisztrálni az oldalra.
@@ -130,8 +131,8 @@
 			    |		|		 |	A felhasználó által kiválasztott termékeket itt képes összehasonlítani.
   --------------------------------------------------------------------------------------------------------------------------------------
   
-	 Felület	    |  K11	|    Vásárlás    |	Egy külön felület amelyet a Kosáron belül érhetünk el.
-			    |		| 		 |	Ha a felhasználó végzett, akkor itt képes a kiválasztott termékeket megvásárolni.
+	 Felület	    |  K11	|    Vásárlás    |	Egy külön felület amelyet a Kosáron belül érhetünk el. Ha a felhasználó
+			    |		| 		 |	 végzett, akkor itt képes a kiválasztott termékeket megvásárolni.
   --------------------------------------------------------------------------------------------------------------------------------------
 
 
