@@ -174,7 +174,7 @@ Cikkszám	Gyártó	        Terméknév	    Nettó ár
   1177	        Gear	         Okosóra	     70 000 Ft
 
 
-
+9. Használati esetek (use case)
 
 
   
