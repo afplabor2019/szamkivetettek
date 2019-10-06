@@ -65,9 +65,9 @@
 
 
 
-	5. Igényelt üzleti folyamatok modellje
+5. Igényelt üzleti folyamatok modellje
 
-		A program fő célját már leírtuk, most nézzük meg, hogy hogyan valósítjuk azt meg.
+	A program fő célját már leírtuk, most nézzük meg, hogy hogyan valósítjuk azt meg.
 		
 	A felhasználó egy kezdő felületen kezd, ahol van lehetősége regisztrálni, vagy bejelentkezni
 	ha már regisztrált, valamint képes vendégként is használni az oldalt.
@@ -82,8 +82,9 @@
 	Ha megvan a kosarunkban a termék akkor lehetővé válik egy "Vásárlás" menüpont, ahol
 	megvehetjük kiválasztott termékünknet/termékeinket.
 	Itt választhatunk még más opciókból pl. Milyen kiszállítás, Időpont választása, stb.
+	
 
-	6. Követelmény lista
+6. Követelmény lista
 
 
 		MODUL	    |	ID	|      Név 	 |  				     Kifejtés
@@ -133,6 +134,22 @@
 			    |		| 		 |	Ha a felhasználó végzett, akkor itt képes a kiválasztott termékeket megvásárolni.
   --------------------------------------------------------------------------------------------------------------------------------------------
 
+
+7.Képernyőtervek
+
+1. Regisztációs felület: Nem kötelető, csak ha a felhasználó értesítest szeretne kapni a különféle akciok és extra ajánlatokról, akkor 				 lehet opcionális ez a rész.
+
+2. Főoldal: Ez a kezdő oldal, innen a felhasználó tud választani a lehetőségek közül, hogy hová akar eljutni. Négy főbb kategóra közül 		    lehet választani.
+
+3. Mobiltelefonok: Ez az első kategória, rengeteg telefon közül tud választani a felhasználó, különböző szűrőrőket tud beállítani, ami 			   megkönnyítini a dolgát.
+
+4. Tabletek: Ez az második kategória, itt szintén rengeteg tablet közül tud választani a felhasználó és itt is tud beállítani különböző 	     szűrőrőket, ami megkönnyítini a dolgát.
+
+5. Okosórák: Ez az harmadik kategória, itt szintén rengeteg okosóra közül tud választani a felhasználó és itt is tud beállítani 		     különböző szűrőrőket, ami megkönnyítini a dolgát.
+
+6. Laptopok: Ez az negyedik kategória, itt szintén rengeteg laptop közül tud választani a felhasználó és itt is tud beállítani különböző 	      szűrőrőket, ami megkönnyítini a dolgát.
+
+
 8.Adatmodell
 
                  VEVŐ			
@@ -166,6 +183,8 @@ Cikkszám	Gyártó	        Terméknév	    Nettó ár
 
 
   10.Forgatókönyv
+  
+  
   1.A felhasználó be lép az oldalra.
   2.A regisztrációs ablak feldobása(Persze nem kötelető csak ha a felhasználó értesítest szeretne kapni a különféle akciok és extra ajánlatokról)
   3.Abban az esetben ha a Felhasználó regisztrálni szeretne akkor meg kell adni pár személyes adatott és esetlegesen a szállítási adatokat amit majd kesőbb nem kell meg adnia mert a felhasználó regsztrációs résznél már meg adta.
@@ -176,6 +195,7 @@ Cikkszám	Gyártó	        Terméknév	    Nettó ár
   7.Megtörtént az adatt rögzítés ezzel egyben a rendelés leadás is.Ezután a felhasználó kapni fog e-mailben egy megerősítési levelet hogy sikeresen rögzítettük az adatokat és a csomagot előkészítjük majd átadjuk a futárszolgálatnak.
   9.További értesítést a futárszolgálattol fog kapni.
   8.Köszönjük a vásárlását! 	
+  
 
   11. Fogalomszótár
 
