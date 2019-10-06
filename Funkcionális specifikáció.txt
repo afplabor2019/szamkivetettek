@@ -29,7 +29,7 @@
 	megtekinteni és összehasonlítani.
 
 
-3. Vágyálom rendszer
+3. Vágyálomrendszer
 
 		A cél egy olyan Online webes árúház, ahol könnyen elérhető minden.
 	Ha lesz lá lehetőség akkor a rendszer elérhető lesz több platformon, weben és C#-ban.
@@ -88,51 +88,51 @@
 
 
 		MODUL	    |	ID	|      Név 	 |  				     Kifejtés
-  --------------------------------------------------------------------------------------------------------------------------------------------
+  --------------------------------------------------------------------------------------------------------------------------------------
 	   
 	 Adminisztráció	    |	K1	|  Kezdőoldal	 |	Az oldal amelyet lát a felhasználó amikor megnyitja a programot. 
-			    |		|	         |	Itt érhető el külöböző lehetőségek, mint a Vendég, Regiszráció és Bejeletkezés.
-  --------------------------------------------------------------------------------------------------------------------------------------------
+			    |		|	         |	Itt érhető el külöböző lehetőségek, mint a Vendég, Regiszráció és                 Bejeletkezés.
+  --------------------------------------------------------------------------------------------------------------------------------------
 	 
 	 Adminisztráció	    |	K2	|  Regisztráció  |	Itt képes a felhasználó felregisztrálni az oldalra.
 			    |		|		 |	Szükséges a felhasználó Neve, Jelszava, E-Mail.
-  --------------------------------------------------------------------------------------------------------------------------------------------	
+  --------------------------------------------------------------------------------------------------------------------------------------
 
 	 Adminisztráció	    |	K3	|  Bejeletkezés  |	Itt képes a felhasználó bejelentkezni az oldalra.
 			    |		|		 |	Szükséges a felhasználó Neve és jelszava.
-  --------------------------------------------------------------------------------------------------------------------------------------------
+  --------------------------------------------------------------------------------------------------------------------------------------
   
 	 Felület	    |	K4	|    Főoldal     |	Ezzen a felületen érhető el minden másik menüpont a felhasználó számára.
 	 
-  --------------------------------------------------------------------------------------------------------------------------------------------	
+  --------------------------------------------------------------------------------------------------------------------------------------
   
 	 Felület	    |	K5	|    Telefonok   |	Az a felület ahol a különböző Mobil Telefonok elérhetőek.
 			    |		|		 |	Ezen belül itt lehet különböző szempontok alapján szürni. 
-  --------------------------------------------------------------------------------------------------------------------------------------------	
+  --------------------------------------------------------------------------------------------------------------------------------------
   
 	 Felület	    |	K6	|    Tabletek    |	Az a felület ahol a különböző Tabletek elérhetőek.
 			    |		|		 |	Ezen belül itt lehet különböző szempontok alapján szürni. 
-  --------------------------------------------------------------------------------------------------------------------------------------------	
+  --------------------------------------------------------------------------------------------------------------------------------------
   
 	 Felület	    |	K7	|    Laptopok    |	Az a felület ahol a különböző Laptopok / Notebook-ok elérhetőek.
 			    |		|		 |	Ezen belül itt lehet különböző szempontok alapján szürni. 
-  --------------------------------------------------------------------------------------------------------------------------------------------
+  --------------------------------------------------------------------------------------------------------------------------------------
 
 	 Felület	    |	K8	|    Okos órák   |	Az a felület ahol a különböző Okos órák elérhetőek.
 			    |		|		 |	Ezen belül itt lehet különböző szempontok alapján szürni. 
-  --------------------------------------------------------------------------------------------------------------------------------------------	
+  --------------------------------------------------------------------------------------------------------------------------------------
   
      	 Felület	    |   K9	|    Kosár   	 |	Olyan felület, amelyet a felhasználó mindig lát.
 			    |		|		 |	Az általa kiválasztott termékek ide kerülnek.
-  --------------------------------------------------------------------------------------------------------------------------------------------	
+  -------------------------------------------------------------------------------------------------------------------------------------	
   
 	 Felület	    |  K10	| Összehasonlítás|	Egy külön menüpont amelyet a főoldalról érünk el.
 			    |		|		 |	A felhasználó által kiválasztott termékeket itt képes összehasonlítani.
-  --------------------------------------------------------------------------------------------------------------------------------------------	
+  --------------------------------------------------------------------------------------------------------------------------------------
   
 	 Felület	    |  K11	|    Vásárlás    |	Egy külön felület amelyet a Kosáron belül érhetünk el.
 			    |		| 		 |	Ha a felhasználó végzett, akkor itt képes a kiválasztott termékeket megvásárolni.
-  --------------------------------------------------------------------------------------------------------------------------------------------
+  --------------------------------------------------------------------------------------------------------------------------------------
 
 
 7.Képernyőtervek
@@ -183,16 +183,25 @@ Cikkszám	Gyártó	        Terméknév	    Nettó ár
   10.Forgatókönyv
   
   
-  1.A felhasználó be lép az oldalra.
-  2.A regisztrációs ablak feldobása(Persze nem kötelető csak ha a felhasználó értesítest szeretne kapni a különféle akciok és extra ajánlatokról)
-  3.Abban az esetben ha a Felhasználó regisztrálni szeretne akkor meg kell adni pár személyes adatott és esetlegesen a szállítási adatokat amit majd kesőbb nem kell meg adnia mert a felhasználó regsztrációs résznél már meg adta.
-  3.Miután felhasználó tulvan az első lépéseken a kerésés fülnél meg adhatja hogy milyen tipusu terméket szeretne vásárolni/utána nézni.
-  4.Majd ha keresett terméket meg találta de meg ezen felül is szűkíteni szeretné a találatokat akkor a különféle szűrőket tud be állítani ami meg könnyítini a felhasznaló dolgát.
-  5.Ha a felhasználó meg találta a kívánt terméket akkor azt a kosárba kell helyezni majd a kosár fülnél tudja véghez vinni a tranzakciót.
-  6.Ha felhasználónak sikerült tovább lépnie akkor pár személyes adatott fogunk kérni(pl:Név,E-mail cím,telefonszám,Szállítási cím(Irányítószám,Város,Utca,Hazszám,Ajtó/Emelet),Számlázási cím,Egyéb közlemény ) hogy folytathassa a trancakció.
-  7.Megtörtént az adatt rögzítés ezzel egyben a rendelés leadás is.Ezután a felhasználó kapni fog e-mailben egy megerősítési levelet hogy sikeresen rögzítettük az adatokat és a csomagot előkészítjük majd átadjuk a futárszolgálatnak.
-  9.További értesítést a futárszolgálattol fog kapni.
-  8.Köszönjük a vásárlását! 	
+  1. A felhasználó be lép az oldalra.
+  
+  2. A regisztrációs ablak feldobása (Persze nem kötelető csak ha a felhasználó értesítest szeretne kapni a különféle akciok és extra        ajánlatokról)
+  
+  3. Abban az esetben ha a Felhasználó regisztrálni szeretne akkor meg kell adni pár személyes adatott és esetlegesen a szállítási            adatokat amit majd kesőbb nem kell meg adnia mert a felhasználó regsztrációs résznél már meg adta.
+  
+  3. Miután felhasználó tulvan az első lépéseken a kerésés fülnél meg adhatja hogy milyen tipusu terméket szeretne vásárolni/utána            nézni.
+  
+  4. Majd ha keresett terméket meg találta de meg ezen felül is szűkíteni szeretné a találatokat akkor a különféle szűrőket tud be           állítani  ami meg könnyítini a felhasznaló dolgát.
+  
+  5. Ha a felhasználó meg találta a kívánt terméket akkor azt a kosárba kell helyezni majd a kosár fülnél tudja véghez vinni a                tranzakciót.
+  
+  6. Ha felhasználónak sikerült tovább lépnie akkor pár személyes adatott fogunk kérni(pl:Név,E-mail cím,telefonszám,Szállítási              cím (Irányítószám,Város,Utca,Hazszám,Ajtó/Emelet),Számlázási cím,Egyéb közlemény ) hogy folytathassa a trancakció.
+  
+  7. Megtörtént az adatt rögzítés ezzel egyben a rendelés leadás is.Ezután a felhasználó kapni fog e-mailben egy megerősítési levelet        hogy sikeresen rögzítettük az adatokat és a csomagot előkészítjük majd átadjuk a futárszolgálatnak.
+  
+  9. További értesítést a futárszolgálattol fog kapni.
+  
+  8. Köszönjük a vásárlását! 	
   
 
   11. Fogalomszótár
