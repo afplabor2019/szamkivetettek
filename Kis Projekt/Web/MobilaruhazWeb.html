@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mobiláruház</title>
+<link href="style.css" rel="stylesheet" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Fooldal')" id="defaultOpen">Főoldal</button>
+  <button class="tablinks" onclick="openCity(event, 'mobil')">Mobiltelefonok</button>
+  <button class="tablinks" onclick="openCity(event, 'tablagep')">Tabletek</button>
+  <button class="tablinks" onclick="openCity(event, 'okosora')">Okosórák</button>
+    <button class="tablinks" onclick="openCity(event, 'laptop')">Laptopok</button>
+</div>
+
+
+<div id="Fooldal" class="tabcontent">
+ <center>
+ <h2>Számkivetettek Webáruház</h2>
+ <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="iPhone11Borito.jpg" style="width:116%">
+    <div class="text">iPhone 11</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="iPadBorito.jpg" style="width:116%">
+    <div class="text">iPad Air </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="AsusNotebooks.png" style="width:116%">
+    <div class="text">Asus Notebooks</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+ 
+ </center>
+</div>
+
+<div id="mobil" class="tabcontent">
+	<center>	
+	<h2>Mobiltelefonok</h2>
+	<table>
+		<tr>
+			<th>Samsung</th>
+			<th>Samsung Galaxy S10</th>			
+			<th>
+			<div class="dropdown">
+				<img src="SamsungS10.jpg" alt="Cinque Terre" width="40" height="60">
+				<div class="dropdown-content">
+				<img src="SamsungS10.jpg" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Samsung Galaxy S10 128GB</div>
+				</div>
+			</div>
+			</th>
+			<th>259.000 Ft</th>
+		</tr>
+		
+		<tr>
+			<th>Apple</th>
+			<th>iPhone 11</th>			
+			<th>
+				<div class="dropdown">
+				<img src="iPhone11.png" alt="Cinque Terre" width="40" height="60">
+				<div class="dropdown-content">
+				<img src="iPhone11.png" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">iPhone 11 64GB</div>
+				</div>
+			</div>
+			</th>
+			<th>359.000 Ft</th>
+		</tr>
+		
+		<tr>
+			<th>Huawei</th>
+			<th>Huawei P30</th>
+			<th>
+				<div class="dropdown">
+				<img src="HuaweiP30.png" alt="Cinque Terre" width="40" height="60">
+				<div class="dropdown-content">
+				<img src="HuaweiP30.png" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Huawei P30 Lite Dualsim</div>
+				</div>
+			</div>
+			</th>
+			<th>99.000 Ft</th>
+	  </tr>
+		
+		<tr>
+			<th>Nokia</th>
+			<th>Nokia 4.2 </th>		
+			<th>
+				<div class="dropdown">
+				<img src="Nokia4.png" alt="Cinque Terre" width="40" height="60">
+				<div class="dropdown-content">
+				<img src="Nokia4.png" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Nokia 4.2 Dual Sim</div>
+				</div>
+			</div>
+			</th>
+			<th>59.000 Ft</th>
+	  </tr>	  
+	</table>	
+	</center>	
+</div>
+
+<div id="tablagep" class="tabcontent">
+	<center>	
+	<h2>Tabletek</h2>
+	<table>
+		<tr>
+			<th>Samsung</th>
+			<th>Samsung Galaxy Tab S5e</th>			
+			<th>
+			<div class="dropdown">
+				<img src="TabS5e.png" alt="Cinque Terre" width="40" height="80">
+				<div class="dropdown-content">
+				<img src="TabS5e.png" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Samsung Galaxy Tab S5e </div>
+				</div>
+			</div>
+			</th>
+			<th>59.000 Ft</th>
+		</tr>
+		
+		<tr>
+			<th>Apple</th>
+			<th>Apple iPad Air 10,5</th>			
+			<th>
+				<div class="dropdown">
+				<img src="Air10.png" alt="Cinque Terre" width="40" height="80">
+				<div class="dropdown-content">
+				<img src="Air10.png" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Apple iPad Air 10,5 64GB</div>
+				</div>
+			</div>
+			</th>
+			<th>154.000 Ft</th>
+		</tr>
+		
+		<tr>
+			<th>Lenovo</th>
+			<th>Lenovo Tab 4 8</th>
+			<th>
+				<div class="dropdown">
+				<img src="Lenovotab.png" alt="Cinque Terre" width="40" height="80">
+				<div class="dropdown-content">
+				<img src="LenovoTab.png" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Lenovo Tab 4 8</div>
+				</div>
+			</div>
+			</th>
+			<th>19.000 Ft</th>
+	  </tr>
+		
+		<tr>
+			<th>Apple</th>
+			<th>Apple iPad 9.7</th>		
+			<th>
+				<div class="dropdown">
+				<img src="iPad9.7.png" alt="Cinque Terre" width="40" height="80">
+				<div class="dropdown-content">
+				<img src="iPad9.7.png" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Apple iPad 9.7 32 GB</div>
+				</div>
+			</div>
+			</th>
+			<th>89.000 Ft</th>
+	  </tr>	  
+	</table>	
+	</center>	
+</div>
+
+<div id="okosora" class="tabcontent">
+		<center>	
+	<h2>Okosórák</h2>
+	<table>
+		<tr>
+			<th>Samsung</th>
+			<th>Samsung Galaxy Watch okosóra</th>			
+			<th>
+			<div class="dropdown">
+				<img src="GalaxyWatch.png" alt="Cinque Terre" width="40" height="80">
+				<div class="dropdown-content">
+				<img src="GalaxyWatch.png" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Samsung Galaxy Watch</div>
+				</div>
+			</div>
+			</th>
+			<th>105.000 Ft</th>
+		</tr>
+		
+		<tr>
+			<th>Telenor</th>
+			<th>Telenor Wallet</th>			
+			<th>
+				<div class="dropdown">
+				<img src="Wallett.png" alt="Cinque Terre" width="40" height="80">
+				<div class="dropdown-content">
+				<img src="Wallett.png" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Telenor Wallet karkötő</div>
+				</div>
+			</div>
+			</th>
+			<th>2.000 Ft</th>
+		</tr>
+		
+		<tr>
+			<th>Huawei</th>
+			<th>Huawei Band 3 Pro</th>
+			<th>
+				<div class="dropdown">
+				<img src="Band3.png" alt="Cinque Terre" width="40" height="80">
+				<div class="dropdown-content">
+				<img src="Band3.png" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Huawei Band 3 Pro</div>
+				</div>
+			</div>
+			</th>
+			<th>29.000 Ft</th>
+	  </tr>
+		
+		<tr>
+			<th>Samsung</th>
+			<th>Samsung Gear Sport okosóra </th>		
+			<th>
+				<div class="dropdown">
+				<img src="Gear.png" alt="Cinque Terre" width="80" height="40">
+				<div class="dropdown-content">
+				<img src="Gear.png" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Samsung Gear Sport okosóra </div>
+				</div>
+			</div>
+			</th>
+			<th>79.000 Ft</th>
+	  </tr>	  
+	</table>	
+	</center>
+</div>
+
+<div id="laptop" class="tabcontent">
+	<center>	
+	<h2>Laptopok</h2>
+	<table>
+		<tr>
+			<th>Asus</th>
+			<th>Asus ZenBook Pro</th>			
+			<th>
+			<div class="dropdown">
+				<img src="ZenBook.jpg" alt="Cinque Terre" width="100" height="80">
+				<div class="dropdown-content">
+				<img src="TabS5e.png" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Asus ZenBook Pro</div>
+				</div>
+			</div>
+			</th>
+			<th>889.000 Ft</th>
+		</tr>
+		
+		<tr>
+			<th>Lenovo</th>
+			<th>Lenovo IdeaPad 330</th>			
+			<th>
+				<div class="dropdown">
+				<img src="IdeaPad.jpg" alt="Cinque Terre" width="100" height="80">
+				<div class="dropdown-content">
+				<img src="IdeaPad.jpg" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">Lenovo IdeaPad 330</div>
+				</div>
+			</div>
+			</th>
+			<th>84.000 Ft</th>
+		</tr>
+		
+		<tr>
+			<th>HP</th>
+			<th>HP 250 G6</th>
+			<th>
+				<div class="dropdown">
+				<img src="HP250.jpg" alt="Cinque Terre" width="100" height="80">
+				<div class="dropdown-content">
+				<img src="HP250.jpg" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">HP 250 G6</div>
+				</div>
+			</div>
+			</th>
+			<th>149.000 Ft</th>
+	  </tr>
+		
+		<tr>
+			<th>Apple</th>
+			<th>MacBook Air</th>		
+			<th>
+				<div class="dropdown">
+				<img src="MacBook.jpg" alt="Cinque Terre" width="100" height="80">
+				<div class="dropdown-content">
+				<img src="MacBook.jpg" alt="Cinque Terre" width="300" height="200">
+				<div class="desc">MacBook Air</div>
+				</div>
+			</div>
+			</th>
+			<th>309.000 Ft</th>
+	  </tr>	  
+	</table>	
+	</center>
+</div>
+ 
+<script>
+// Menü rendszer működése
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+document.getElementById("defaultOpen").click();
+
+
+</script>
+
+<script>
+//Főoldal kép script
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+<script>
+//Automatikus képváltoztatás ()
+/*
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+*/
+</script>
+
+</body>
+</html>
