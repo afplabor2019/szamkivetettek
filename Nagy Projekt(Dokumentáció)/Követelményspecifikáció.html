@@ -10,238 +10,326 @@
     <title>Követelményspecifikáció</title>
 </head>
 <body>
-	<h1 style="text-align: center;">Követelményspecifikáció</h1>
-	<br>
-    <h2>1. Áttekintés</h2>
-	<p>A projekt célja, hogy egy olyan könnyen használható Online árúházat készítsünk,
-        ahol rengeteg terméket elérhetünk, minél kényelmesebb módon.
-        
-        A Webshoppon elérhető legyen minél több gépjármű, gyártótól, ártól,
-        és konfigurációtól teljesen függetlenül.
-        
-        A különböző termékeket képesek legyünk összehasonlítani bármeik másik termékkel.
-        A fő cél, hogy bárhol, bármikor, olcsón, vagy drágán, elérhető legyen a Webshop bárki számára.
-    </p>
-    <br>
-    <h2>2. Jelenlegi helyzet</h2>
-    <p>
-        A mai piacon rengeteg különböző Webshop található, legyen az Használtaútó, AAA autó, stb.
-	A legtöbb elektronikai cégnek, internetes, és telefonos szolgáltatónak van ilyen oldala.
-	Ám mindegyik valamilyen fajta módón kedvezz egy fajta terméknek.
-	
-	Sokszor nem találjuk meg azokat a termékeket amelyeket mi szeretnénk, hanem az oldal
-	az arcunghoz vág egy saját, az árúház termékét.
-	
-	Még ha megis találunk olyan termékeket amelyek nekünk tetszenek, nem tudjok őket
-	gyorsan és jól láthatóan összehasonlítani.
-	
-	Ezért találtuk ki ezt a programot, ahol minden gépjármú elérhető legyen
-	gyártótól, ártól, konfigurációtól, stb.-től függetlenül.
-	
-	Olyan program, ahol akadály mentesen tudunk a számunkra kedvező termékeket
-	megtekinteni és összehasonlítani.
-    </p>
-    <br>
-    <h2>3. Vágyálom rendszer</h2>
-    <p>
-        A cél egy olyan Online webes árúház, ahol könnyen elérhető minden.
-	Ha lesz lá lehetőség akkor a rendszer elérhető lesz több platformon, weben és C#-ban.
-	Jelenleg csak a C# lesz elérhető.
-	
-	Kell lenni-e egy regisztrációs felületnek, ahol a vendégek feltudnak regisztrálni, így
-	az oldalt a saját tetszésüknek szabhatják, az adataikat megjegyzük és így gyorsabban és
-	könnyedébben tudnak vásárolni. Persze belehet lépni vendégként is.
-	
-	Az gépjárművek menüpontokban lesznek elérhetőek, pl. "(személyautó/ kisteherautó / motor / egyéb ) stb.
-	
-	Kell egy összehasonlítási felület ahol, a különböző termékeket össze lehet hasonlítani
-	több szempont alapján is, legyen az ár, teljesítmény, évjárat, stb.
-    </p>
-    <br>
-    <h2>4. Jelenlegi üzleti folyamatok modellje</h2>
-    <p>A rengetek webes áruházakból nehezen tudunk választani, hogy melyik a legjobb,
-        melyiket a legkönnyebb használni, és hogy melyik raktára a legbővebb.
-        
-        A mai világban az emberek figyelem ideje egyre kissebb és kissebb, például hamár
-        egy videó nem töltődik be pár másodperc alatt akkor nagy az esélye, hogy megse nézzük.
-        
-        A felhasználóknak egy gyors, akadály mentes, elérhető, és nem bonyolult eszközök
-        kellenek, szinte az élet minden szempontjához, és ez igaz a Webshopokra is.
-        
-        Miértelme használni egy webes árúházat, ha nem találod meg amit találsz,
-        azon az áron amelyre számítottátl, egy teljesen másik színben.
-    </p>
-    <br>
-    <h2>5. Igényelt üzleti folyamatok modellje</h2>
-    <p>
-        A program fő célját már leírtuk, most nézzük meg, hogy hogyan valósítjuk azt meg.
-		
-        A felhasználó egy kezdő felületen kezd, ahol van lehetősége regisztrálni, vagy bejelentkezni
-        ha már regisztrált, valamint képes vendégként is használni az oldalt.
-        
-        Belépve láthatóak a főbb menüpontok: (személyautó/ kisteherautó / motor / egyéb )
-        Ezekbe belépve találhatók különböző termékeke, valamint a menüpontokon belül is 
-        képesek vagyunk szűrni, ár, teljesítmény, évjárat, tipus, stb. szerint.
-        
-        A kiválasztott termékünket összehasonlíthatjuk más termékekkel.
-        
-        Ha megvan a kiválasztott térmék akkor a kocsi adatainál lesz az adott eladó elérhetőségie 
-        ami segítségével lehet pontosítani a vásárlás idöpontját. 
-    </p>
-    <br>
-    <h2>6. Követelmény lista</h2>
-    <table>
-        <tr>
-            <th>Modul</th>
-            <th>ID</th>
-            <th>Név</th>
-            <th>Verzió</th>
-            <th>Kifejtés</th>
-        </tr>
-        <tr>
-            <td>Adminisztráció</td>
-            <td>K1</td>
-            <td>Kezdőoldal</td>
-            <td>1.0</td>
-            <td>
-                Az oldal amelyet lát a felhasználó amikor megnyitja a programot. <br>
-                Itt érhető el külöböző lehetőségek, mint a Vendég, Regiszráció és Bejeletkezés.
-            </td>
-        </tr>
-        <tr>
-            <td>Adminisztráció</td>
-            <td>K2</td>
-            <td>Regisztráció</td>
-            <td>1.0</td>
-            <td>
-                Itt képes a felhasználó felregisztrálni az oldalra. <br>
-                Szükséges a felhasználó Neve, Jelszava, E-Mail.
-            </td>
-        </tr>
-        <tr>
-            <td>Adminisztráció</td>
-            <td>K3</td>
-            <td>Bejeletkezés</td>
-            <td>1.0</td>
-            <td>
-                Itt képes a felhasználó bejelentkezni az oldalra. <br>
-                Szükséges a felhasználó Neve és jelszava.
-            </td>
-        </tr>
-        <tr>
-            <td>Felület</td>
-            <td>K4</td>
-            <td>Főoldal</td>
-            <td>1.0</td>
-            <td>
-                Ezzen a felületen érhető el minden másik menüpont a felhasználó számára.
-            </td>
-        </tr>
-        <tr>
-            <td>Felület</td>
-            <td>K5</td>
-            <td>Személyautók</td>
-            <td>1.0</td>
-            <td>
-                Az a felület ahol a különböző Személyautók elérhetőek. <br>
-                Ezen belül itt lehet különböző szempontok alapján szürni. 
-            </td>
-        </tr>
-        <tr>
-            <td>Felület</td>
-            <td>K6</td>
-            <td>Motorok</td>
-            <td>1.0</td>
-            <td>
-                Az a felület ahol a különböző Motorok elérhetőek. <br>
-                Ezen belül itt lehet különböző szempontok alapján szürni. 
-            </td>
-        </tr>
-        <tr>
-            <td>Felület</td>
-            <td>K7</td>
-            <td>Kisteherautók</td>
-            <td>1.0</td>
-            <td>
-                Az a felület ahol a különböző Kisteherautók lesznek elérhetőek. <br>
-                Ezen belül itt lehet különböző szempontok alapján szürni. 
-            </td>
-        </tr>
-        <tr>
-            <td>Felület</td>
-            <td>K8</td>
-            <td>Egyéb</td>
-            <td>1.0</td>
-            <td>
-                Az a felület ahol a különböző Egyéb járművek elérhetőek. <br>
-                Ezen belül itt lehet különböző szempontok alapján szürni. 
-            </td>
-        </tr>
-        <tr>
-            <td>Felület</td>
-            <td>K9</td>
-            <td>Kezdőoldal</td>
-            <td>1.0</td>
-            <td>
-                Az oldal amelyet lát a felhasználó amikor megnyitja a programot. <br>
-                Itt érhető el külöböző lehetőségek, mint a Vendég, Regiszráció és Bejeletkezés.
-            </td>
-        </tr>
-        <tr>
-            <td>Felület</td>
-            <td>K10</td>
-            <td>Összehasonlítás</td>
-            <td>1.0</td>
-            <td>
-                Egy külön menüpont amelyet a főoldalról érünk el. <br>
-                A felhasználó által kiválasztott termékeket itt képes összehasonlítani.
-            </td>
-        </tr>
-        <tr>
-            <td>Felület</td>
-            <td>K11</td>
-            <td>Vásárlás</td>
-            <td>1.0</td>
-            <td>
-                Ha megvan a kiválasztott térmék akkor a kocsi adatainál lesz az adott eladó elérhetőségie  <br>
-                ami segítségével lehet pontosítani a vásárlás idöpontját.
-            </td>
-        </tr>
-    </table>
-    <br>
-    <h2>7. Fogalomszótár</h2>
-    <p>
-        [Adminisztráció]: Olyan felület ahol a felhasználó valamilyen adatát megkell hogy adja.
-        <br>
-        <br>
-        [Felület]: Olyan oldal, amellyel a felhasználó képes interaktiválni és megváltoztatni.
-        <br>
-        <br>
-        [C#]: Programozási nyelv, amelyben képesek vagyunk elkészíteni a programot.
-        <br>
-        <br>
-        [Modul]: Ez alapján különböztetjük meg, hogy milyen fajtáú egy követelmény.
-        <br>
-        <br>
-        [ID]: Az adott követelményhez tartozó azonosító, amivel könnyen megtalákható.
-        <br>
-        <br>
-        [BUG]: Fejlesztési hiba ami által a program nem a várt eredményt ad vissza.
-        <br>
-        <br>
-        [Backend]: A kiszolgáló, ahonnan az alkalmazást el lehet érni.
-        <br>
-        <br>
-        [Frontend]: Egy réteg ami feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.
-        <br>
-        <br>
-        [Web-service]: Különböző programnyelveken írt és különböző platformokon futó szoftveralkalmazások
-                interneten keresztül történő adatcseréjére használt webszolgáltatások.
-        <br>
-        <br>
-        [Multiplatform]: Több környezetben futtatható alkalmazás.
-    </p>
+<header>
+	<div class="KontHeader">
+			<nav>
+				<ul>
+                    <li>
+						<a href="Riport.html">Riport</a>
+					</li>
+					<li>
+						<a class="active" href="Követelmény specifikáció.html">Követelmény specifikáció</a>
+					</li>
+					<li>
+						<a href="Funkcionális specifikáció.html">Funkcionális specifikáció</a>
+					</li>
+					<li>
+						<a href="Rendszerterv.html">Rendszerterv</a>
+					</li>
+				</ul>
+			</nav>
+	</div>
+</header>
+<main>
+    <h2 class="tj">Tartalom</h2>
+<br>
+<ol>
+    <li><a href="#1">Áttekintés</a></li>
+    <li><a href="#2">Jelenlegi helyzet</a></li>
+    <li><a href="#3">Vágyálom rendszer</a></li>
+    <li><a href="#4">Jelenlegi üzleti folyamatok modellje</a></li>
+    <li><a href="#5">Igényelt üzleti folyamatok modellje</a></li>
+    <li><a href="#6">Követelmény lista</a></li>
+    <li><a href="#7">Fogalomszótár</a></li>
+</ol>
+<br>
+<br>
+<a id="1"></a>
+<h2>1. Áttekintés</h2>
+<br>
+<p>
+    A projekt célja, hogy egy olyan könnyen használható Online árúházat készítsünk,
+    ahol rengeteg terméket elérhetünk, minél kényelmesebb módon.
     <br>
     <br>
+    A Webshoppon elérhető legyen minél több gépjármű, gyártótól, ártól,
+    és konfigurációtól teljesen függetlenül.
+    <br>
+    <br>
+    A különböző termékeket képesek legyünk összehasonlítani bármeik másik termékkel.
+    A fő cél, hogy bárhol, bármikor, olcsón, vagy drágán, elérhető legyen a Webshop bárki számára.
+</p>
+<br>
+<br>
+<a id="2"></a>
+<h2>2. Jelenlegi helyzet</h2>
+<br>
+<p>
+    A mai piacon rengeteg különböző Webshop található, legyen az Használtaútó, AAA autó, stb.
+    A legtöbb elektronikai cégnek, internetes, és telefonos szolgáltatónak van ilyen oldala.
+    Ám mindegyik valamilyen fajta módón kedvezz egy fajta terméknek.
+    <br>
+    <br>
+    Sokszor nem találjuk meg azokat a termékeket amelyeket mi szeretnénk, hanem az oldal
+    az arcunghoz vág egy saját, az árúház termékét.
+    <br>
+    <br>
+    Még ha megis találunk olyan termékeket amelyek nekünk tetszenek, nem tudjok őket
+    gyorsan és jól láthatóan összehasonlítani.
+    <br>
+    <br>
+    Ezért találtuk ki ezt a programot, ahol minden gépjármú elérhető legyen
+    gyártótól, ártól, konfigurációtól, stb.-től függetlenül.
+    <br>
+    <br>
+    Olyan program, ahol akadály mentesen tudunk a számunkra kedvező termékeket
+    megtekinteni és összehasonlítani.
+</p>
+<br>
+<br>
+<a id="3"></a>
+<h2>3. Vágyálom rendszer</h2>
+<br>
+<p>
+    A cél egy olyan Online webes árúház, ahol könnyen elérhető minden.
+    Ha lesz lá lehetőség akkor a rendszer elérhető lesz több platformon, weben és C#-ban.
+    Jelenleg csak a C# lesz elérhető.
+    <br>
+    <br>
+    Kell lenni-e egy regisztrációs felületnek, ahol a vendégek feltudnak regisztrálni, így
+    az oldalt a saját tetszésüknek szabhatják, az adataikat megjegyzük és így gyorsabban és
+    könnyedébben tudnak vásárolni. Persze belehet lépni vendégként is.
+    <br>
+    <br>
+    Az gépjárművek menüpontokban lesznek elérhetőek, pl. "(személyautó/ kisteherautó / motor / egyéb ) stb.
+    <br>
+    <br>
+    Kell egy összehasonlítási felület ahol, a különböző termékeket össze lehet hasonlítani
+    több szempont alapján is, legyen az ár, teljesítmény, évjárat, stb.
+</p>
+<br>
+<br>
+<a id="4"></a>
+<h2>4. Jelenlegi üzleti folyamatok modellje</h2>
+<br>
+<p>A rengetek webes áruházakból nehezen tudunk választani, hogy melyik a legjobb,
+    melyiket a legkönnyebb használni, és hogy melyik raktára a legbővebb.
+    <br>
+    <br>
+    A mai világban az emberek figyelem ideje egyre kissebb és kissebb, például hamár
+    egy videó nem töltődik be pár másodperc alatt akkor nagy az esélye, hogy megse nézzük.
+    <br>
+    <br> 
+    A felhasználóknak egy gyors, akadály mentes, elérhető, és nem bonyolult eszközök
+    kellenek, szinte az élet minden szempontjához, és ez igaz a Webshopokra is.
+    <br>
+    <br>
+    Miértelme használni egy webes árúházat, ha nem találod meg amit találsz,
+    azon az áron amelyre számítottátl, egy teljesen másik színben.
+</p>
+<br>
+<br>
+<a id="5"></a>
+<h2>5. Igényelt üzleti folyamatok modellje</h2>
+<br>
+<p>
+    A program fő célját már leírtuk, most nézzük meg, hogy hogyan valósítjuk azt meg.
+    <br>
+    <br>
+    A felhasználó egy kezdő felületen kezd, ahol van lehetősége regisztrálni, vagy bejelentkezni
+    ha már regisztrált, valamint képes vendégként is használni az oldalt.
+    <br>
+    <br>
+    Belépve láthatóak a főbb menüpontok: (személyautó/ kisteherautó / motor / egyéb )
+    Ezekbe belépve találhatók különböző termékeke, valamint a menüpontokon belül is 
+    képesek vagyunk szűrni, ár, teljesítmény, évjárat, tipus, stb. szerint.
+    <br>
+    <br>
+    A kiválasztott termékünket összehasonlíthatjuk más termékekkel.
+    <br>
+    <br>
+    Ha megvan a kiválasztott térmék akkor a kocsi adatainál lesz az adott eladó elérhetőségie 
+    ami segítségével lehet pontosítani a vásárlás idöpontját. 
+</p>
+<br>
+<br>
+<a id="6"></a>
+<h2>6. Követelmény lista</h2>
+<br>
+<table>
+    <tr>
+        <th>Modul</th>
+        <th>ID</th>
+        <th>Név</th>
+        <th>Verzió</th>
+        <th>Kifejtés</th>
+    </tr>
+    <tr>
+        <td>Adminisztráció</td>
+        <td>K1</td>
+        <td>Kezdőoldal</td>
+        <td>1.0</td>
+        <td>
+            Az oldal amelyet lát a felhasználó amikor megnyitja a programot. <br>
+            Itt érhető el külöböző lehetőségek, mint a Vendég, Regiszráció és Bejeletkezés.
+        </td>
+    </tr>
+    <tr>
+        <td>Adminisztráció</td>
+        <td>K2</td>
+        <td>Regisztráció</td>
+        <td>1.0</td>
+        <td>
+            Itt képes a felhasználó felregisztrálni az oldalra. <br>
+            Szükséges a felhasználó Neve, Jelszava, E-Mail.
+        </td>
+    </tr>
+    <tr>
+        <td>Adminisztráció</td>
+        <td>K3</td>
+        <td>Bejeletkezés</td>
+        <td>1.0</td>
+        <td>
+            Itt képes a felhasználó bejelentkezni az oldalra. <br>
+            Szükséges a felhasználó Neve és jelszava.
+        </td>
+    </tr>
+    <tr>
+        <td>Felület</td>
+        <td>K4</td>
+        <td>Főoldal</td>
+        <td>1.0</td>
+        <td>
+            Ezzen a felületen érhető el minden másik menüpont a felhasználó számára.
+        </td>
+    </tr>
+    <tr>
+        <td>Felület</td>
+        <td>K5</td>
+        <td>Személyautók</td>
+        <td>1.0</td>
+        <td>
+            Az a felület ahol a különböző Személyautók elérhetőek. <br>
+            Ezen belül itt lehet különböző szempontok alapján szürni. 
+        </td>
+    </tr>
+    <tr>
+        <td>Felület</td>
+        <td>K6</td>
+        <td>Motorok</td>
+        <td>1.0</td>
+        <td>
+            Az a felület ahol a különböző Motorok elérhetőek. <br>
+            Ezen belül itt lehet különböző szempontok alapján szürni. 
+        </td>
+    </tr>
+    <tr>
+        <td>Felület</td>
+        <td>K7</td>
+        <td>Kisteherautók</td>
+        <td>1.0</td>
+        <td>
+            Az a felület ahol a különböző Kisteherautók lesznek elérhetőek. <br>
+            Ezen belül itt lehet különböző szempontok alapján szürni. 
+        </td>
+    </tr>
+    <tr>
+        <td>Felület</td>
+        <td>K8</td>
+        <td>Egyéb</td>
+        <td>1.0</td>
+        <td>
+            Az a felület ahol a különböző Egyéb járművek elérhetőek. <br>
+            Ezen belül itt lehet különböző szempontok alapján szürni. 
+        </td>
+    </tr>
+    <tr>
+        <td>Felület</td>
+        <td>K9</td>
+        <td>Kezdőoldal</td>
+        <td>1.0</td>
+        <td>
+            Az oldal amelyet lát a felhasználó amikor megnyitja a programot. <br>
+            Itt érhető el külöböző lehetőségek, mint a Vendég, Regiszráció és Bejeletkezés.
+        </td>
+    </tr>
+    <tr>
+        <td>Felület</td>
+        <td>K10</td>
+        <td>Összehasonlítás</td>
+        <td>1.0</td>
+        <td>
+            Egy külön menüpont amelyet a főoldalról érünk el. <br>
+            A felhasználó által kiválasztott termékeket itt képes összehasonlítani.
+        </td>
+    </tr>
+    <tr>
+        <td>Felület</td>
+        <td>K11</td>
+        <td>Vásárlás</td>
+        <td>1.0</td>
+        <td>
+            Ha megvan a kiválasztott térmék akkor a kocsi adatainál lesz az adott eladó elérhetőségie  <br>
+            ami segítségével lehet pontosítani a vásárlás idöpontját.
+        </td>
+    </tr>
+</table>
+<br>
+<br>
+<a id="7"></a>
+<h2>7. Fogalomszótár</h2>
+<br>
+<p>
+    [Adminisztráció]: Olyan felület ahol a felhasználó valamilyen adatát megkell hogy adja.
+    <br>
+    <br>
+    [Felület]: Olyan oldal, amellyel a felhasználó képes interaktiválni és megváltoztatni.
+    <br>
+    <br>
+    [C#]: Programozási nyelv, amelyben képesek vagyunk elkészíteni a programot.
+    <br>
+    <br>
+    [Modul]: Ez alapján különböztetjük meg, hogy milyen fajtáú egy követelmény.
+    <br>
+    <br>
+    [ID]: Az adott követelményhez tartozó azonosító, amivel könnyen megtalákható.
+    <br>
+    <br>
+    [BUG]: Fejlesztési hiba ami által a program nem a várt eredményt ad vissza.
+    <br>
+    <br>
+    [Backend]: A kiszolgáló, ahonnan az alkalmazást el lehet érni.
+    <br>
+    <br>
+    [Frontend]: Egy réteg ami feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.
+    <br>
+    <br>
+    [Web-service]: Különböző programnyelveken írt és különböző platformokon futó szoftveralkalmazások
+            interneten keresztül történő adatcseréjére használt webszolgáltatások.
+    <br>
+    <br>
+    [Multiplatform]: Több környezetben futtatható alkalmazás.
+</p>
+<br>
+<br>
+</main>
+<footer>
+    <div class="KontFooter">
+		<a class="logof" href="Követelmény specifikáció.html">Vissza a tetejére</a>
+			<nav>
+				<ul>
+					<li>
+						<a class="active" href="Követelmény specifikáció.html">Követelmény specifikáció</a>
+					</li>
+					<li>
+						<a href="Funkcionális specifikáció.html">Funkcionális specifikáció</a>
+					</li>
+					<li>
+						<a href="Rendszerterv.html">Rendszerterv</a>
+					</li>
+				</ul>
+			</nav>
+	</div>
+</footer>
 </body>
 </html>
