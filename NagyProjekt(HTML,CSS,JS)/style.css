@@ -209,7 +209,7 @@ input{
 
 .REG_R button{
   background-color: #ffb700;
-  border: 1px solid black; 
+  border: 2px solid black; 
   color: #363635; 
   padding: 10px 25px; 
   cursor: pointer;
