@@ -78,15 +78,63 @@
 <h2>1. Rendszer célja</h2>
 <br>
 <p>
-
+    Cél egy olyan rendszer / weboldal fejlesztése, ahol bárki, bárhonnan, gyorsan és egyszerűen tudjon olyan járművet
+    választani amely megfelel neki.
+    <br>
+    <br>
+    A felhasználó könnyedén és szabadun lesz képes választani használtjárművekből minden kategóriában.
+    <br>
+    A járműveket külön menüpontokba soroljuk és onnan is lehet majd tovább választani, márkák, méretek, üzemanyag, és egyéb más
+    igyén szerint.
+    <br>    
+    Egy menüpontba belépve a felhasználó saját maga válogathat a jármű felhozatalból, itt láthatja majd az árakat,
+    mikor lett elérhető, ki hírdetet, elérhetőségeket, esetleges hibákat / javításokat stb.
+    <br>
+    <br>
+    Ilyen weboldalak / rendszerek már léteznek, ezért nem az a cél, hogy egy technológiai újjítást teremtsünk, hanem 
+    hogy egy hasonló szolgáltatást tudjunk nyújtani ellenfeleinkkel szemben, amelyek jobbak, gyorsabbak, kényelmesebbek.
+    <br>
+    <br>
+    Ez a rendszer / weboldal ingyenes lesz, ezért bárki könnyedén hozzátud majd férni egy számítógépen, de akár a telefonján is.
+    <br>
+    Ha egy felhasználó hírdetni szeretni a weboldalunkkon akkor, regisztrálnia kell, amely kér egy Felhasználónevet, Jelszót,
+    E-mail címet, Várost, és egy elérhetőséget.
+    <br>
 </p>
 <br>
+<br>
+<a id="2"></a>
 <br>
 <a id="2"></a>
 <h2>2. Projekt terv</h2>
 <br>
 <p>
-
+    Az ügyfél olyan igénnyel kereset meg bennünket, hogy hozzunk létre egy olyan Használt jármű online weboldal-t, amely
+    versenytársai-val szemben, könnyebben, gyorsabban és hasznosabban lehessen használni.
+    <br>
+    <br>
+    A weboldal / rendszer olyanoknak nyújt segítséget, akik használt járműveket szeretnének gondmentesen,
+    és időpazarlás nélkül vásárolni.
+    <br>
+    Vagy azoknak akik használt gépjárművüktől szeretnének megválni, egy olyan rendszerben, ahol könnyedén,
+    és díjmentesen meghírdethetik azt.
+    <br>
+    <br>
+    A XXI. században már létezik sok ilyen fajta oldal az Interneten, még Magyarországon is.
+    <br>
+    De az ügyfél számára ezek az oldalak túl nehezen használhatónak, zsúfoltnak, és lassúnak bizonyultak.
+    A kereset járműveket nehezen érte el, ha el is érte akkor nem olyanokat amelyet ő szeretet volna látni.
+    Az információk a jármvűvel kapcsolatban nem voltak tiszták, és nem votl elérhető a tulajdonos.
+    <br>
+    <br>
+    Ezért, kért fel az ügyfél arra, hogy egy olyan weboldalt készitsünk amely tiszteli a felhasználó idejét, és
+    nem vesztegti azt feleslegesen.
+    <br>
+    Az ügyfél igénye szerint az oldal tartalmazni fog egy regisztrációs felülelet, ahol a felhasználónak
+    regisztrálnia kell, hogy meghírdethesse járművét.
+    <br>
+    Az ügyfél erre azt az okot adta meg, hogy ha a jármű tulajdonosa több módon is megadja elérhetőségét,
+    akkor könnyebben lesz elérhető.
 </p>
 <br>
 <br>
@@ -104,33 +152,6 @@
 <p>
 
 </p>
-<br>
-<br>
-<a id="5"></a>
-<h2>5. Funkcionális terv</h2>
-<br>
-<p>
-
-</p>
-<br>
-<br>
-<a id="6"></a>
-<h2>6. Fizikai környezet</h2>
-<br>
-<p>
-
-</p>
-<br>
-<br>
-<a id="7"></a>
-<h2>7. Absztrakt domain modell</h2>
-<br>
-<p>
-
-</p>
-<br>
-<br>
-<a id="8"></a>
 <h2>8. Architektúrális terv</h2>
 <br>
 <p>
@@ -142,7 +163,22 @@
 <h2>9. Adatbázis terv</h2>
 <br>
 <p>
+ A fizika telepítési terv:
 
+- Szükség van egy adatbázis szerverre, amely egy védett LAN-on csatlakozik
+  a webszerverre, amely egy beágyazott Jetty alkalmazásszerver.
+  
+- A webszerver a lekérdezéseket REST API segítségével végzi.
+
+- A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
+
+A szoftver telepítési terv:
+
+- A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges
+  (Google Chrome, Firefox, Opera, Safari), külön szoftver nem kell hozzá.
+  
+- A szoftver Android-os telepítése és frissítése Google Play segítségével
+  történik, tehát a felhasználónak már rendelkeznie kell vele telepítés előtt.
 </p>
 <br>
 <br>
@@ -155,29 +191,6 @@
 <br>
 <br>
 <a id="11"></a>
-<h2>11. Tesztterv</h2>
-<br>
-<p>
-
-</p>
-<br>
-<br>
-<a id="12"></a>
-<h2>12. Telepítési terv</h2>
-<br>
-<p>
-
-</p>
-<br>
-<br>
-<a id="13"></a>
-<h2>13. Karbantartási terv</h2>
-<br>
-<p>
-
-</p>
-<br>
-<br>
 </main>
 <footer>
     <div class="KontFooter">
