@@ -1,0 +1,73 @@
+Teszt jegyzőkönyv
+
+ Bejelentkezés tesztelése a Főoldal előtt.
+ Tesztelő: Tanka Norbert
+Dátum: 2020.01.10
+
+Az Itt megteheted gomb tesztelése
+ Amit várok: Bal egér gombbal rákattintva a regisztrációs felületett nyitja meg.
+ Ami történik: regisztrációs felületett.
+Helyes működés
+
+Regisztrációs oldal tesztelése
+Tesztelő: Tanka Norbert
+Dátum: 2020.01.13
+
+A Regisztrációs gomb tesztelése
+ Amit várok: Bal egér gombbal rákattintva a regisztrációs sikeresen végre hajtódik.
+ Ami történik: Sikerült Regisztrálni.
+Helyes működés
+
+A Belépes gomb tesztelése
+ Amit várok: Bal egér gombbal rákattintva belépteti a felhasználót az adott paraméterek alapján, majd megjeleníti a főoldalt.
+ Ami történik: Belépteti a felhasználót az adott paraméterek alapján, majd megjeleníti a főoldalt.
+Helyes működés
+
+Főoldal tesztelése bejelentkezés után
+Tesztelő: Tanka Norbert
+Dátum: 2020.01.12
+
+A Admin gomb tesztelése
+ Amit várok: Bal egér gombbal rákattintva a Admin felületet nyitja meg.
+ Ami történik: Megnyitja a Admin felületet
+Helyes működés
+
+A Vissza főoldalra gomb tesztelése
+ Amit várok: Bal egér gombbal rákattintva kilépteti a felhasználót,az admin felületből.
+ Ami történik: Kilépteti a felhasználót, majd megjeleníti a főoldalt.
+Helyes működés
+
+A Mentés gomb tesztelése
+ Amit várok: Bal egér gombbal rákattintva elmenti a megváltoztatott adatokat.
+ Ami történik: Elmenti az adatokat.
+Helyes működés
+
+A Kijelentkezésre gomb tesztelése
+ Amit várok: Bal egér gombbal rákattintva kilépteti a felhasználót, majd megjeleníti a főoldalt.
+ Ami történik: Kilépteti a felhasználót, majd megjeleníti a főoldalt.
+Helyes működés
+
+Menüpontok tesztelése
+Tesztelő: Tanka Norbert
+Dátum: 2020.01.11
+
+A Személyautó ikon tesztelése
+ Amit várok: Bal egér gombbal rákattintva megjeleníti a megadott auto márkákat. 
+ Ami történik: Megjeleníti a márkákat.
+Helyes működés
+
+A Motor ikon tesztelése
+ Amit várok: Bal egér gombbal rákattintva megjeleníti egy legördülő listában a márkákat.
+ Ami történik: Megjeleníti egy legördülő listában a márkákat.
+Helyes működés
+
+A TeherGépjármű ikon tesztelése
+ Amit várok: Bal egér gombbal rákattintva megjeleníti egy legördülő listában a márkákat.
+ Ami történik: Megjeleníti egy legördülő listában a márkákat.
+Helyes működés
+
+A Egyéb ikon tesztelése
+ Amit várok: Bal egér gombbal rákattintva megjeleníti egy legördülő listában a márkákat.
+ Ami történik: Megjeleníti egy legördülő listában a márkákat.
+Helyes működés
+
